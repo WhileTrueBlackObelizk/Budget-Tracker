@@ -4,7 +4,7 @@ Database models for the Budget Tracker.
 
 from sqlalchemy import Column, Integer, String, Float, Date, Computed
 from sqlalchemy.sql import func
-from database import Base
+from .database import Base
 
 
 class Transaction(Base):
